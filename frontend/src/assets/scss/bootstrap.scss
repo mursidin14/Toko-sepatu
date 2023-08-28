@@ -40,3 +40,73 @@
 @import "carousel";
 @import "utilities";
 @import "print";
+
+.brand-icon-text {
+    font-size: 26px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: $primary;
+}
+
+header {
+    border-bottom: 1px solid $gray-200;
+    width: 100%;
+    position: relative;
+
+    .navbar {
+        height: 80px;
+
+        a {
+            text-decoration: none;
+        }
+
+        .navbar-nav {
+            li.nav-item.active {
+                a {
+                    &.nav-link {
+                        color: $primary;
+                    }
+                }
+            }
+            li.nav-item {
+                a {
+                    &.nav-link {
+                        color: $gray-900;
+                        padding-left: 1rem;
+                        padding-right: 1rem;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+section.koleksi {
+    .card {
+        a {
+            text-decoration: none;
+
+            .card-body {
+                color: $gray-900;
+
+                p {
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    max-width: 300px;
+                }
+
+                h5 {
+                    color: $primary;
+                }
+            }
+        }
+        a:hover {
+            box-shadow: 3px 3px 10px rgb(202, 195, 195);
+        }
+    }
+}
