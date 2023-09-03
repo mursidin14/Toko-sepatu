@@ -1,20 +1,33 @@
-import KoleksiJson from 'json/koleksi'
+import FavoriteJson from 'json/favorite';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 
-export default function Koleksi() {
+export default function Favorite() {
+
+    let settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000
+      };
+
     return (
-        <section className="container koleksi mt-5 pt-3 pb-3">
+        <section className="container favorite mt-5 pt-3 pb-3">
             <h1 className="h2 font-weigh-bold line-height-1 mb-3 text-center">
-                Koleksi Sepatu
+                Sepatu Favorite
             </h1>
             <p className="text-gray-700 font-weight-laight text-center">
-                Sepatu Dengan Kualitas Terbaik Di Indonesia Kini Hadir Untuk Anda
+                Sepatu Dengan Penjualan terbanyak karna banyak di minati
             </p>
-            <div className="row pt-4">
+            <Slider {...settings} >
                 {
-                    KoleksiJson.map((item, i) => (
-                        <div className="col-lg-3 col-md-6 col-sm-12" key={i}>
-                            <div className="card m-auto">
+                    FavoriteJson.map((item, i) => (
+                            <div className="card" key={i}>
                                 <a href="# ">
                                         <img className="card-img-top" src={`${item.img}`} alt={`${item.alt}`} />
                                         <div className="card-body">
@@ -23,10 +36,9 @@ export default function Koleksi() {
                                         </div>
                                     </a>
                             </div>
-                        </div>
                     ))
                 }
-            </div>
+            </Slider>
         </section>
     )
 }

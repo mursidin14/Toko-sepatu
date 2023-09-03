@@ -30,5 +30,37 @@
         "alt":"nike",
         "img":"./images/koleksi.png",
         "url":""
+    },
+    {
+        "id":5,
+        "name":"Sepatu Converse19 All Star Biru Navy Dongker Pria Cowok Dewasa Sekolah",
+        "price":170000,
+        "alt":"nike",
+        "img":"./images/koleksi_2.png",
+        "url":""
+    },
+    {
+        "id":6,
+        "name":"Sepatu Pria 003 Sneakers Korean Style/Promo Sepatu Converse003 Termurah All star Hitam Tinggi/Sepatu Sneakers pria Termurah/Sepatu Sneakers wanita Termurah/Sepatu sekolah/Sepatu trendi masa kini/Allstar tinggi Boot Hitam Clasik/Sepatu Murah/Bisa COD",
+        "price":200000,
+        "alt":"nike",
+        "img":"./images/koleksi_3.png",
+        "url":""
+    },
+    {
+        "id":7,
+        "name":"Sepatu Sneakers Depstore.idd List Mono Sepatu Sneakers Sepatu Olahraga Sepatu Running Sepatu Fashion Sepatu Pria Kasual",
+        "price":120000,
+        "alt":"nike",
+        "img":"./images/koleksi.png",
+        "url":""
+    },
+    {
+        "id":8,
+        "name":"Sepatu Converse19 All Star Biru Navy Dongker Pria Cowok Dewasa Sekolah",
+        "price":170000,
+        "alt":"nike",
+        "img":"./images/koleksi_2.png",
+        "url":""
     }
 ]

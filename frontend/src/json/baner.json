@@ -1,0 +1,19 @@
+[
+    {
+        "id":1,
+        "alt":"nike",
+        "img":"./images/bg-baner.jpg",
+        "url":""
+    },
+    {
+        "id":2,
+        "img":"./images/bg-baner_2.jpg",
+        "url":""
+    },
+    {
+        "id":3,
+        "alt":"nike",
+        "img":"./images/bg-baner_3.jpg",
+        "url":""
+    }
+]
